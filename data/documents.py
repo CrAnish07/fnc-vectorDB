@@ -27,10 +27,6 @@ def get_cwc_documents():
 
         # PSG
         Document(
-            page_content="Kylian Mbappé (France) scored 4 goals and assisted once, playing a major role in PSG’s run to the final.",
-            metadata={"club": "Paris Saint-Germain"}
-        ),
-        Document(
             page_content="Ousmane Dembélé (France) contributed 1 goal and 3 assists, excelling on the right wing.",
             metadata={"club": "Paris Saint-Germain"}
         ),
@@ -44,6 +40,10 @@ def get_cwc_documents():
         ),
 
          # Real Madrid
+        Document(
+            page_content="Kylian Mbappé (France) scored 4 goals and assisted once, playing a major role in PSG’s run to the final.",
+            metadata={"club": "Real Madrid"}
+        ),
         Document(
             page_content="Jude Bellingham (England) scored 2 goals and completed 87% of his passes for Real Madrid in the semifinals.",
             metadata={"club": "Real Madrid"}
