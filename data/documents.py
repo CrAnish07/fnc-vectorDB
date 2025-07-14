@@ -17,7 +17,7 @@ def get_cwc_documents():
             metadata={"club": "Chelsea"}
         ),
         Document(
-            page_content="Cole Palmer (England) scored 2 goals, including one in the final, and created 9 chances.",
+            page_content="Cole Palmer (England) scored 4 goals, including two in the final, and created 9 chances.",
             metadata={"club": "Chelsea"}
         ),
         Document(
@@ -27,7 +27,11 @@ def get_cwc_documents():
 
         # PSG
         Document(
-            page_content="Ousmane Dembélé (France) contributed 1 goal and 3 assists, excelling on the right wing.",
+            page_content="Ousmane Dembélé (France) contributed 1 goal and 3 assists, excelling on the attacking side.",
+            metadata={"club": "Paris Saint-Germain"}
+        ),
+        Document(
+            page_content="Desire Doure (France) contributed 2 goal and 2 assists.",
             metadata={"club": "Paris Saint-Germain"}
         ),
         Document(
@@ -41,7 +45,11 @@ def get_cwc_documents():
 
          # Real Madrid
         Document(
-            page_content="Kylian Mbappé (France) scored 4 goals and assisted once, playing a major role in PSG’s run to the final.",
+            page_content="Kylian Mbappé (France) scored 2 goals and assisted once.",
+            metadata={"club": "Real Madrid"}
+        ),
+        Document(
+            page_content="Gonzalo Garcia (Spain) scored 4 goals and 3 assist.",
             metadata={"club": "Real Madrid"}
         ),
         Document(
@@ -106,10 +114,6 @@ def get_cwc_documents():
             metadata={"club": "Fluminense"}
         ),
         Document(
-            page_content="Marcelo (Brazil), the veteran left-back, provided 1 assist and brought leadership to Fluminense’s backline.",
-            metadata={"club": "Fluminense"}
-        ),
-        Document(
             page_content="André (Brazil) anchored midfield with 90% passing and 19 recoveries.",
             metadata={"club": "Fluminense"}
         ),
@@ -141,4 +145,58 @@ def get_cwc_documents():
             page_content="Jordi Alba (Spain) delivered 1 assist and made 9 crosses from the left.",
             metadata={"club": "Inter Miami"}
         ),
+
+        # --- Juventus ---
+        Document(
+            page_content="Kenan Yildiz (Turkey) scored 2 goals and had 13 shot attempts in the competition.",
+            metadata={"club": "Juventus"}
+        ),
+        Document(
+            page_content="Francisco Conceição (Portugal) had 1 goal and 3 successful dribbles per match.",
+            metadata={"club": "Juventus"}
+        ),
+
+        # --- Flamengo ---
+        Document(
+            page_content="Gabriel Barbosa 'Gabigol' (Brazil) scored twice, continuing his impressive FCWC form.",
+            metadata={"club": "Flamengo"}
+        ),
+        Document(
+            page_content="Giorgian De Arrascaeta (Uruguay) assisted 2 goals and created 7 key chances.",
+            metadata={"club": "Flamengo"}
+        ),
+
+        # --- Benfica ---
+        Document(
+            page_content="Ángel Di María (Argentina) scored 1 goal and completed 89% of his passes in midfield.",
+            metadata={"club": "Benfica"}
+        ),
+        Document(
+            page_content="António Silva (Portugal) led Benfica's defense with 19 clearances and 6 tackles.",
+            metadata={"club": "Benfica"}
+        ),
+
+        # --- Al Hilal ---
+        Document(
+            page_content="Rúben Neves (Portugal) dictated tempo with 91% pass accuracy and 3 long-ball assists.",
+            metadata={"club": "Al Hilal"}
+        ),
+        Document(
+            page_content="Kalidou Koulibaly (Senegal) had 17 defensive actions and 2 clean sheets.",
+            metadata={"club": "Al Hilal"}
+        ),
+
+        # --- Monterrey ---
+        Document(
+            page_content="Sergio Ramos (Spain) led the team with 35 defensive actions and 2 clean sheets.",
+            metadata={"club": "Monterrey"}
+        ),
+        Document(
+            page_content="Rogelio Funes Mori (Mexico) scored 2 goals and won 7 aerial duels in Monterrey's campaign.",
+            metadata={"club": "Monterrey"}
+        ),
+        Document(
+            page_content="Luis Romo (Mexico) contributed with 1 assist and 20 recoveries from defensive midfield.",
+            metadata={"club": "Monterrey"}
+        )
     ]
